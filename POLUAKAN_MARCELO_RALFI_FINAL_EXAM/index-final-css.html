@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index-final-style.css" />
+    <title>Dashboard Kuliner Nusantara</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <header class="header">
+        <div class="header__search">
+          <input type="text" id="search" placeholder="Cari makanan..." />
+        </div>
+        <div class="header__avatar">
+          <img
+            src="assets/rrrrrrrrrr.jpeg"
+            alt="Chef"
+            class="avatar-img"
+            tabindex="0"
+          />
+        </div>
+      </header>
+
+      <!-- Sidebar Navigation -->
+      <aside class="sidenav">
+        <div class="sidenav__close-icon">
+          <img src="assets/ralfi.jpg" alt="Logo Kuliner" class="Logo" />
+        </div>
+        <ul class="sidenav__list">
+          <li class="sidenav__list-item">Beranda</li>
+          <li class="sidenav__list-item">Resep</li>
+          <li class="sidenav__list-item">Destinasi Kuliner</li>
+          <li class="sidenav__list-item">Tips Memasak</li>
+          <li class="sidenav__list-item">Keluar</li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main">
+        <div class="main-header">
+          <div class="main-header__heading">Welcome, culinary lovers!</div>
+          <div class="main-header__updates">
+            <span class="mood-icon">
+              <img src="assets/" alt="" />
+            </span>
+            <span class="mood-text">Enjoy Your Meal</span>
+          </div>
+        </div>
+
+        <!-- Overview Cards -->
+        <div class="main-overview">
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <img src="assets/dish.jpg" alt="Dish" style="width: 250px" />
+            </div>
+            <div class="overviewcard__info">
+              <strong>Resep:</strong> 120+ <br />
+              <small>Aneka Masakan</small>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <img src="assets/destinasi wisata.jpeg" alt="Destinasi" style="width: 250px" />
+            </div>
+            <div class="overviewcard__info">
+              <strong>Destinasi:</strong> 30+ <br />
+              <small>Wisata Kuliner</small>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <img src="assets/tips memasak.jpeg" alt="Tips" style="width: 250px" />
+            </div>
+            <div class="overviewcard__info">
+              <strong>Tips:</strong> 50+ <br />
+              <small>Memasak & Hidangan</small>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <img src="assets/rate.jpeg" alt="Rating" style="width: 250px" />
+            </div>
+            <div class="overviewcard__info">
+              <strong>Rating:</strong> 4.9/5 <br />
+              <small>Dari 1,000+ Pengguna</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed Cards -->
+        <div class="main-cards">
+          <div class="card card-span">
+            <img src="assets/nasi goreng.jpg" alt="Nasi Goreng" class="card-image" />
+            <h3>Nasi Goreng</h3>
+            <p>
+              Temukan cara membuat nasi goreng dengan bumbu autentik Nusantara. Mudah
+              dan lezat untuk dinikmati kapan saja.
+            </p>
+            <a href="nasi-goreng.html" class="card-link">Lihat Resep</a>
+          </div>
+          <div class="card">
+            <img src="assets/sate ayam.jpg" alt="Sate Ayam" class="card-image" />
+            <h3>Sate Ayam</h3>
+            <p>
+              Kelezatan sate ayam khas Jawa dengan bumbu kacang yang kental. Cocok untuk
+              acara keluarga atau makan malam spesial.
+            </p>
+            <a href="sate-ayam.html" class="card-link">Coba Sekarang</a>
+          </div>
+          <div class="card">
+            <img src="assets/es cendol.jpg" alt="Es Cendol" class="card-image" />
+            <h3>Es Cendol</h3>
+            <p>
+              Minuman manis dengan cendol hijau yang segar. Pas untuk menemani siang
+              yang panas.
+            </p>
+            <a href="es-cendol.html" class="card-link">Pelajari Resep</a>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer__copyright">&copy; 2024 Kuliner Nusantara</div>
+          <div class="footer__signature">
+            Almost is never enough, taste like home cooking.
+          </div>
+        </footer>
+      </div>
+
+      <script src="kuliner-script.js"></script>
+    </body>
+</html>
